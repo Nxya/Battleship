@@ -9,6 +9,7 @@ class BattleShip
   @@rowD = lineD.split(" ")
   lineE = "|   |   |   |   |   | E"
   @@rowE = lineE.split(" ")
+  
   def buildGrid
     puts "  1   2   3   4   5    "
     puts "|---|---|---|---|---|  "
